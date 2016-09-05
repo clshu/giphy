@@ -66,7 +66,7 @@ function createImgBoxes(name, arr) {
 
 function getGifs(name, limit, rating) {
 	var publicKey = 'dc6zaTOxFJmzC';
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + name;
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + name;
 	queryURL += "&api_key=" + publicKey + "&limit=" + limit + "&rating=" + rating;
 
     $.ajax({
