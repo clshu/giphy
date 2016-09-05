@@ -1,0 +1,39 @@
+body {
+	font-size: 20px;
+}
+#header {
+	height: 75px;
+	width: 100%;
+	border: 2px solid;
+}
+
+.buttons {
+	background-color: green;
+	color: white;
+	font-size: 14px;
+}
+
+#actor-form {
+	/* float: right; */
+	width: 50%;
+	margin: 0 auto;
+}
+
+#actor-input {
+	margin-top: 5px;
+}
+
+#actors {
+
+	display: inline;
+	text-align: center;
+	overflow: auto;
+}
+
+.img-box {
+	float: left;
+	margin-right: 5px;
+	/* clear: right; */
+}
+
+
