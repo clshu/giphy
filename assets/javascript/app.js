@@ -38,10 +38,10 @@ function createButton(name) {
 	return (obj);
 }
 function createButtons() {
-	stars.forEach(function(name) {
-		var button = createButton(name);
+	for (var i = 0; i < stars.length; i++) {
+		var button = createButton(stars[i]);
 		$('#actorButtons').append(button);
-	});
+	};
 	addListener('.actor-buttons', 'click', clickActorButtons);
 }
 function createImgBoxes(name, arr) {
